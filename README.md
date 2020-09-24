@@ -1,6 +1,6 @@
-# CSI-FiSh Adaptor Signature
+# IAS
 
-This repository contains the implementation of the adaptor signature version of the isogeny-based signature scheme [CSI-FiSh](https://github.com/KULeuven-COSIC/CSI-FiSh).
+This repository contains the implementation of Isogeny Adaptor Signature (IAS), which is a post-quantum adaptor signature based on the [CSI-FiSh](https://github.com/KULeuven-COSIC/CSI-FiSh) signature scheme.
 
 ## Dependencies
 
@@ -9,6 +9,7 @@ This repository contains the implementation of the adaptor signature version of 
 ## Usage
 
 ```sh
+cd src
 make test
 ./test
 ```
